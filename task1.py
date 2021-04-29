@@ -12,4 +12,4 @@ count = 0
 for x in shopping_dict:
    if isinstance(shopping_dict[x], list):
       count += len(shopping_dict[x])
-print("W sumie kupuję ",count," produktów.")
+print("W sumie kupuję ",count," produktów w ", len(shopping_dict), "sklepach.")
